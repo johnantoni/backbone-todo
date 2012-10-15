@@ -1,0 +1,4 @@
+<%= @entry.get('name') %>
+<% if @entry.get('completed'): %>
+  <span class="completed">Done</span>
+<% end %>
